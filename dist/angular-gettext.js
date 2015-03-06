@@ -1,3 +1,4 @@
+(function(window, angular, undefined){
 angular.module('gettext', []);
 
 angular.module('gettext').constant('gettext', function (str) {
@@ -333,3 +334,4 @@ angular.module("gettext").factory("gettextPlurals", function () {
         }
     }
 });
+})(window, window.angular);
